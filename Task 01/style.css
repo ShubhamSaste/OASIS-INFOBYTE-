@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(120deg, #1f005c, #3b046b, #5b097a, 
+    #801088, #971787, #a6207b, #b5296d, #c4345d, #d3404d,
+     #e15d4d, #f0895c, #ffb56b);
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'BioRhyme', serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+label{
+    font-family: 'Merriweather', serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.wrapper{
+    color: white;
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+    padding: 70px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
+    border: 10px solid rgb(5 255 235);
+    border-radius: 10px;
+}
+
+.input{
+    border-radius: 5px;
+    border: 3px solid rgb(255, 0, 0);
+    outline: none;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+select{
+    border-radius: 5px;
+    border: 3px solid rgb(255, 0, 0);
+    outline: none;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.submit{
+    border-radius: 5px;
+    border: 3px solid rgb(255, 0, 0);
+    outline: none;
+    background-color:rgb(248, 247, 247);
+    padding: 6px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.submit:hover{
+    background-color: rgb(221, 221, 221);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.output{
+    font-size: large;
+    font-family: 'BioRhyme', serif;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    
+}
